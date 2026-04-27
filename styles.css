@@ -1,0 +1,103 @@
+/* Warning: this CSS was written at 2am. Make it prettier! */
+
+body {
+  font-family: "Comic Sans MS", cursive;
+  background-color: #00ff00;
+  color: #ff00ff;
+  margin: 0
+  padding: 10px;
+}
+
+header {
+  background: yellow;
+  text-align: center;
+  padding: 20px;
+  border: 5px dashed red;
+}
+
+h1 {
+  font-size: 48px;
+  color: blue;
+  text-shadow: 3px 3px 0 orange;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+#quiz-card {
+  background: white;
+  padding: 30px;
+  border: 3px solid black;
+  width: 60%;
+}
+
+#result-card {
+  background: pink;
+  padding: 30px;
+  border: 3px solid purple;
+  width: 60%;
+}
+
+/* This rule was supposed to hide the result card initially. Why doesn't it work? */
+.Hidden {
+  display: none;
+}
+
+#choices {
+  list-style: none;
+  padding: 0;
+}
+
+#choices li {
+  background: lightblue;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  border: 2px solid navy;
+}
+
+#choices li:hover {
+  background: orange;
+}
+
+#choices li.selected {
+  background: limegreen;
+  font-weight: bold;
+}
+
+button {
+  background: red;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#leaderboard {
+  background: cyan;
+  padding: 20px;
+  border: 3px solid black;
+  width: 30%;
+}
+
+#leaderboard img {
+  width: 200px;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  color: white;
+}
